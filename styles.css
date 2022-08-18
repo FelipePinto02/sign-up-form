@@ -11,7 +11,6 @@
 
 .img-container,
 .form-container {
-    padding: 50px;
     border: 1px solid red;
 }
 
@@ -24,9 +23,20 @@
     background-color: #f9f9f9;
 }
 
+.intro-text {
+    padding: 60px 10px 0px;
+    width: 42%;
+    gap: 50px;
+}
+
 .intro-text h1 {
     font-size: 1.6rem;
+    margin: 40px;
     font-weight: normal;
+}
+
+.form-box {
+    background-color: white;
 }
 
 .italic {
