@@ -71,3 +71,27 @@ section {
 .form-row:last-child {
     margin-bottom: 30px;
 }
+
+input {
+    width: 300px;
+    padding: 6.5px;
+    font-size: 1rem;
+    border-radius: 3px;
+    border: 1px solid #e3e2e2;
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid #4f72d1;
+    box-shadow: 1.5px 1.5px #a78d8dab;
+}
+
+.error,
+.error:focus {
+    border: 1px solid #c70909;
+}
+
+.error-msg {
+    font-size: 0.8rem;
+    color: #c70909;
+}
