@@ -149,4 +149,12 @@ button:hover {
 
 .norse {
     font-family: norse, sans-serif;
+    font-size: 5rem;
+}
+
+.img-credits,
+.img-credits a {
+    color: #ffffffa1;
+    text-align: center;
+    margin: 615px 0px 15px;
 }
